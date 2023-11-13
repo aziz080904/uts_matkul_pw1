@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Tempat Rekreasi Wisata</title>
+    <style>
+        body{
+            background-color: rgb(69, 255, 236);
+        }
+        .form{
+            background: linear-gradient(aqua,white);
+        }
+        .td1{
+            text-align: right;
+        }
+        .td2{
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Formulir Registrasi</h1>
+    <fieldset class="form">
+        <legend>Form Registrasi Tempat Rekreasi Wisata</legend>
+        <br>
+            <div style="margin-left: 30px;">
+                <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td class="td1">Nama Tempat Wisata :</td>
+                            <td class="td2"> &emsp;<input type="text" name="nama" style="width: 8cm;"></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Jenis Wisata :</td>
+                            <td class="td2">&nbsp;&nbsp;&nbsp;
+                                <select name="jeniswisata" id="">
+                                    <option value="taman"> Taman </option>
+                                    <option value="kebun"> Kebun Binatang </option>
+                                    <option value="laut"> Dunia Laut </option>
+                                    <option value="langit"> Benda Langit </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Deskripsi Wisata :</td>
+                            <td class="td2">&emsp;<textarea name="" id="" style="width: 8cm;" rows="5" placeholder="Masukkan deskripsi wisata"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Kontak Person :</td>
+                            <td class="td2">&emsp;<input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">No HP/Telpon :</td>
+                            <td class="td2">&emsp;<input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Email :</td>
+                            <td class="td2">&emsp;<input type="email" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Alamat Web :</td>
+                            <td class="td2">&emsp;<input type="text" placeholder="http://" style="width: 6cm;"></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Alamat Lengkap :</td>
+                            <td class="td2">&emsp;<textarea name="" id="" style="width: 8cm;" rows="5" placeholder="Masukkan alamat lengkap"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Latitude, Longitude :</td>
+                            <td class="td2">&emsp;<input type="text"></td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        <tr>
+                            <td><input style="box-shadow: 4px 3px 2px black; color: black; background-color: aqua;" type="submit" name="proses" value="Daftar"></td>
+                            <td><input style="box-shadow: 4px 3px 2px black; color: black; background-color: whitesmoke;" type="reset" name="unproses" value="Batal"></td>
+                            
+                        </tr>
+                    </table>
+                </form>
+            </div>
+    </fieldset>
+    
+</body>
+</html>
